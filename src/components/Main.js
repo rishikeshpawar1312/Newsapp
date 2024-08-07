@@ -1,7 +1,7 @@
 import React from 'react';
 import NewsCard from './NewsCard';
 
-function Main({ articles }) {
+function Main({ articles = [] }) {
   return (
     <main>
       <div className="cards-container container flex">
